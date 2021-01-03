@@ -11,7 +11,7 @@
 
     <form id="survey-form" style='text-align:center'>
         <label id="name-label" for="name">Name</label><br>
-        <input type="text" id="name"><br>
+        <input type="text" id="name" placeholder='Enter Your Name'><br>
         
         <label  id="email-label" for="email">Email</label><br>
         <input type="email" id="email" name="email" pattern="x@domain.com" placeholder="Enter your Email"><br>
@@ -20,6 +20,13 @@
         <label id="number-label" for="age">Age</label><br>
         <input type="number" name='age' id='age' min="1" max="99" placeholder="Age">
         </div>
+        <label for="dropdown">Which option best describes your current role?</label><br>
+        <select name="dropdown" id="dropdown">
+             <option value="student">student</option>
+             <option value="employed">employed</option>  
+             <option value="unemployed">unemployed</option> 
+        </select>
+        
     </form>
 </body>
 </html>
